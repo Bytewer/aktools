@@ -44,7 +44,7 @@ setuptools.setup(
         "uvicorn>=0.16.0",
         "python-multipart>=0.0.9",
         "jinja2>=3.1.2",
-        "typer[all]>=0.6.1",
+        "typer>=0.12.3",
     ],
     package_data={"": ["*.py", "*.json", "*.pk", "*.woff", "*.html", "*.ico"]},
     keywords=[
